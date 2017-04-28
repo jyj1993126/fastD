@@ -101,7 +101,7 @@ return [
 ```php
 <?php
 return [
-    'listen' => 'http://0.0.0.0:9527',
+    'host' => 'http://0.0.0.0:9527',
     'class' => \FastD\Servitization\Server\HTTPServer::class,
     'options' => [
         'pid_file' => '',
